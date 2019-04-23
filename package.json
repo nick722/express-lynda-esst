@@ -1,0 +1,15 @@
+{
+  "name": "express-lynda-esst",
+  "version": "1.0.0",
+  "description": "Express Essential Training\r https://www.lynda.com/Node-js-tutorials/Initial-Node-server-setup-Express/679637/725161-4.html?srchtrk=index%3a2%0alinktypeid%3a2%0aq%3aexpress%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "Nikolai Yakuschenko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11"
+  }
+}
